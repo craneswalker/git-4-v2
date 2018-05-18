@@ -3,13 +3,13 @@ header {
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 17%;
   align-items: center;
-  border-bottom: .3rem solid darkgrey;
+  border-bottom: .3rem transparent darkgrey;
 }
 
 h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
-  color: rgb(38, 0, 255);
+  color: rgb(38, 0, 254);
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
 }
 
 nav a {
-  text-decoration: line-through;
-  color: darkgrey;
-  font-size: 350;
+  text-decoration: none;
+  color: grey;
+  font-size: 351;
 }
